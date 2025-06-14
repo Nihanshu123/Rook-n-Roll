@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/chessbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_name"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_edittext_bg"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter your Name"
+        android:textColorHint="@color/black"
+        android:padding="15dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext_bg"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/login_name" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/login_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+</RelativeLayout>

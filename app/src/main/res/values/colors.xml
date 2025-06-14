@@ -1,0 +1,5 @@
+<resources>
+    <color name="sky_blue">#3F51B5</color> <!-- Color for buttons -->
+    <color name="black">#000000</color> <!-- Text color -->
+    <color name="white">#FFFFFF</color> <!-- Background color -->
+</resources>

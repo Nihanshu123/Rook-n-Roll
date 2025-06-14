@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Tournament Information Section -->
+        <TextView
+            android:id="@+id/tournamentInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore Upcoming Chess Tournaments"
+            android:textSize="24sp"
+            android:textColor="#FFA500"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4" />
+
+        <!-- Tournament Cards -->
+        <!-- Tournament 1 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#FFCDD2"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/german"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tournamentName1"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="German Bundesliga"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 2 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#C8E6C9"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/womens"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tournamentName2"
+                    android:layout_width="250dp"
+                    android:textColor="@color/black"
+
+                    android:layout_height="wrap_content"
+                    android:text="Women's Grand Prix"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 3 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#BBDEFB"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/europeanclubcup"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tournamentName3"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="European Chess Club Cup"
+                    android:textColor="@color/black"
+
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 4 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#B2DFDB"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage4"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/worldyouth"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tournamentName4"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="World Youth Rapid and Blitz"
+                    android:textColor="@color/black"
+
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 5 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#FFCCBC"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage5"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/world"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tournamentName5"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fide World Championship"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 6 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#D1C4E9"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage6"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/champschesstour"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tournamentName6"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Champions Chess Tour Finals 2024"
+                    android:textSize="15sp"                    android:textColor="@color/black"
+
+
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 7 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#B3E5FC"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage7"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/sparkassen1"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tournamentName7"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sparkassen Chess Open 2024"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 8 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#FFAB91"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage8"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@android:drawable/ic_menu_send"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="Grand Prix Image" />
+
+                <TextView
+                    android:id="@+id/tournamentName8"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dutch Meesterklasse 2024-2025"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 9 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#DCE775"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage9"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/nato"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="Masters Open Image" />
+
+                <TextView
+                    android:id="@+id/tournamentName9"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="34th NATO Chess Championship"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tournament 10 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tournamentCard10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp"
+            android:radius="16dp"
+            app:cardBackgroundColor="#FFAB40"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/tournamentImage10"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/worldrapid"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="World Rapid Championship Image" />
+
+                <TextView
+                    android:id="@+id/tournamentName10"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="World Championship"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/tournamentButton10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Tournament"
+                    android:textColor="#000000" /> <!-- Text color only, no background -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

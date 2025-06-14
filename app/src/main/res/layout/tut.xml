@@ -1,0 +1,194 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_caption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 1: Chess For Beginners"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview1"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 2: Learn en passant and pawn promotion"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview2"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 3: How to Castle in Chess "
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview3"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 4: how to control the center squares"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview4"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 5:How to develop pieces in Chess"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview5"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 6: King’s Safety"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview6"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 7: Learn Chess Symbols and Values"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview7"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 8:How to Use Chess Notation "
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview8"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 9:Check and Checkmate "
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview9"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_caption10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson 10: Draw and Stalemate "
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caption_background"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <WebView
+            android:id="@+id/webview10"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
